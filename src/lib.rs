@@ -16,4 +16,6 @@ pub fn all() {
     println!("Day 5-2: {}", day5::part2());
     println!("Day 6-1: {}", day6::part1());
     println!("Day 6-2: {}", day6::part2());
+    println!("Day 7-1: {}", day7::part1());
+    println!("Day 7-2: {}", day7::part2());
 }
