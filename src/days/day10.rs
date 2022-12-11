@@ -77,6 +77,8 @@ fn draw_pixel(screen: &mut Vec<Vec<char>>, screen_pos: &mut (usize, usize), spri
 }
 
 fn draw_screen(screen: Vec<Vec<char>>) -> String {
+    let inline = true;
+    let hi = !inline;
     let mut buf = String::new();
 
     for row in screen {

@@ -24,4 +24,6 @@ pub fn all() {
     println!("Day 9-2: {}", day9::part2());
     println!("Day 10-1: {}", day10::part1());
     println!("Day 10-2:\n{}", day10::part2());
+    println!("Day 11-1: {}", day11::part1());
+    println!("Day 11-2: {}", day11::part2());
 }
